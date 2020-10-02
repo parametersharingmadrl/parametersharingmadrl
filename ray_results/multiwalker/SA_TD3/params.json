@@ -1,0 +1,56 @@
+{
+  "buffer_size": 100000,
+  "compress_observations": true,
+  "critic_hiddens": [
+    256,
+    256
+  ],
+  "env": "multiwalker",
+  "gamma": 0.99,
+  "learning_starts": 5000,
+  "log_level": "ERROR",
+  "multiagent": {
+    "policies": {
+      "policy_0": [
+        null,
+        "Box(32,)",
+        "Box(4,)",
+        {
+          "gamma": 0.99,
+          "model": {
+            "custom_model": "MLPModel"
+          }
+        }
+      ],
+      "policy_1": [
+        null,
+        "Box(32,)",
+        "Box(4,)",
+        {
+          "gamma": 0.99,
+          "model": {
+            "custom_model": "MLPModel"
+          }
+        }
+      ],
+      "policy_2": [
+        null,
+        "Box(32,)",
+        "Box(4,)",
+        {
+          "gamma": 0.99,
+          "model": {
+            "custom_model": "MLPModel"
+          }
+        }
+      ]
+    },
+    "policy_mapping_fn": "<function <lambda> at 0x7f5cb59f89e0>"
+  },
+  "num_envs_per_worker": 8,
+  "num_gpus": 2,
+  "num_workers": 8,
+  "pure_exploration_steps": 5000,
+  "sample_batch_size": 20,
+  "train_batch_size": 512
+}

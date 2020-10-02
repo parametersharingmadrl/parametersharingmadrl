@@ -1,0 +1,115 @@
+{
+  "batch_mode": "complete_episodes",
+  "buffer_size": 100000,
+  "compress_observations": true,
+  "double_q": true,
+  "dueling": true,
+  "env": "pursuit",
+  "gamma": 0.99,
+  "learning_starts": 1000,
+  "log_level": "ERROR",
+  "multiagent": {
+    "policies": {
+      "policy_0": [
+        null,
+        "Box(148,)",
+        "Discrete(5)",
+        {
+          "gamma": 0.99,
+          "model": {
+            "custom_model": "MLPModelV2"
+          }
+        }
+      ],
+      "policy_1": [
+        null,
+        "Box(148,)",
+        "Discrete(5)",
+        {
+          "gamma": 0.99,
+          "model": {
+            "custom_model": "MLPModelV2"
+          }
+        }
+      ],
+      "policy_2": [
+        null,
+        "Box(148,)",
+        "Discrete(5)",
+        {
+          "gamma": 0.99,
+          "model": {
+            "custom_model": "MLPModelV2"
+          }
+        }
+      ],
+      "policy_3": [
+        null,
+        "Box(148,)",
+        "Discrete(5)",
+        {
+          "gamma": 0.99,
+          "model": {
+            "custom_model": "MLPModelV2"
+          }
+        }
+      ],
+      "policy_4": [
+        null,
+        "Box(148,)",
+        "Discrete(5)",
+        {
+          "gamma": 0.99,
+          "model": {
+            "custom_model": "MLPModelV2"
+          }
+        }
+      ],
+      "policy_5": [
+        null,
+        "Box(148,)",
+        "Discrete(5)",
+        {
+          "gamma": 0.99,
+          "model": {
+            "custom_model": "MLPModelV2"
+          }
+        }
+      ],
+      "policy_6": [
+        null,
+        "Box(148,)",
+        "Discrete(5)",
+        {
+          "gamma": 0.99,
+          "model": {
+            "custom_model": "MLPModelV2"
+          }
+        }
+      ],
+      "policy_7": [
+        null,
+        "Box(148,)",
+        "Discrete(5)",
+        {
+          "gamma": 0.99,
+          "model": {
+            "custom_model": "MLPModelV2"
+          }
+        }
+      ]
+    },
+    "policy_mapping_fn": "<function <lambda> at 0x7fe750cfe710>"
+  },
+  "n_step": 2,
+  "num_atoms": 51,
+  "num_envs_per_worker": 8,
+  "num_gpus": 1,
+  "num_workers": 8,
+  "parameter_noise": true,
+  "prioritized_replay": true,
+  "sample_batch_size": 20,
+  "train_batch_size": 512,
+  "v_max": 1500,
+  "v_min": 0
+}

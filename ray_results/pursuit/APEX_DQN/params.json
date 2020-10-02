@@ -1,0 +1,29 @@
+{
+  "buffer_size": 100000,
+  "compress_observations": true,
+  "env": "pursuit",
+  "gamma": 0.99,
+  "learning_starts": 1000,
+  "log_level": "ERROR",
+  "multiagent": {
+    "policies": {
+      "policy_0": [
+        null,
+        "Box(148,)",
+        "Discrete(5)",
+        {
+          "gamma": 0.99,
+          "model": {
+            "custom_model": "MLPModelV2"
+          }
+        }
+      ]
+    },
+    "policy_mapping_fn": "<function <lambda> at 0x7ff66990e320>"
+  },
+  "num_envs_per_worker": 8,
+  "num_gpus": 1,
+  "num_workers": 8,
+  "sample_batch_size": 20,
+  "train_batch_size": 512
+}

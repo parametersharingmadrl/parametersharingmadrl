@@ -1,0 +1,37 @@
+{
+  "beta_annealing_fraction": 1.0,
+  "buffer_size": 100000,
+  "compress_observations": true,
+  "env": "multi_walker",
+  "exploration_fraction": 0.1,
+  "final_prioritized_replay_beta": 1.0,
+  "gamma": 0.99,
+  "learning_starts": 1000,
+  "log_level": "ERROR",
+  "lr": 0.0001,
+  "multiagent": {
+    "policies": {
+      "policy_0": [
+        null,
+        "Box(32,)",
+        "Box(4,)",
+        {
+          "gamma": 0.99,
+          "model": {
+            "custom_model": "MLPModel"
+          }
+        }
+      ]
+    },
+    "policy_mapping_fn": "<function <lambda> at 0x7fd8276d5cb0>"
+  },
+  "n_step": 3,
+  "num_envs_per_worker": 8,
+  "num_gpus": 1,
+  "num_workers": 8,
+  "prioritized_replay_alpha": 0.5,
+  "sample_batch_size": 20,
+  "target_network_update_freq": 50000,
+  "timesteps_per_iteration": 25000,
+  "train_batch_size": 512
+}
